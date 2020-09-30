@@ -1,0 +1,20 @@
+var myObject :myClass = new MyClass();
+↑一般的なクラスからのインスタンス生成、この方法だと生成を制御出来ない
+
+なので、↓
+getInstance()というstaticメソッドを使って制御する
+
+AS3.0ではコンストラクタをprivate宣言出来ない
+
+
+規約と規則、等
+
+
+
+■実行結果
+getIncetance()
+新規インスタンスを作成
+MyClass()
+
+getIncetance()
+既存インスタンスを返す
